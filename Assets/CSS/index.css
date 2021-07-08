@@ -1,0 +1,66 @@
+:root {
+    --one-color: #EEF36A;
+    --two-color: #3F3047;
+    --three-color: #98B9AB;
+    --four-color: #9BC995;
+    --white-color: #FFF;
+    --gap: 3rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Config inicial */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color: var(--one-color);
+    font-size: 2rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 4rem;
+}
+
+h4 {
+    font-size: 3.5rem;
+}
+
+h5 {
+    font-size: 3rem;
+}
+
+/* Background and Section*/
+
+.main-bg {
+    background-image: url(../IMG/Main-bg.svg); /*Color background var(--one-color); */
+    background-size: cover;
+    background-position: center center;
+    color: var(--two-color);
+}
+
+.white-bg {
+    background: var(--four-color);
+    color: var(--tree-color);
+}
+
+.landing {
+    min-height: 100vh;
+}
